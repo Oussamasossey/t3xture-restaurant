@@ -83,6 +83,7 @@ export function Lightbox({ images, index, onChange, onClose }: LightboxProps) {
               asChild
               forceMount
               showCloseButton={false}
+              className="inset-0 m-auto h-fit translate-x-0 translate-y-0"
               onOpenAutoFocus={(event) => event.preventDefault()}
             >
               <motion.div
